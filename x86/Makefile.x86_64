@@ -24,6 +24,7 @@ tests += $(TEST_DIR)/vmware_backdoors.flat
 tests += $(TEST_DIR)/rdpru.flat
 tests += $(TEST_DIR)/pks.flat
 tests += $(TEST_DIR)/pmu_lbr.flat
+tests += $(TEST_DIR)/user_interrupt.flat
 
 ifneq ($(fcf_protection_full),)
 tests += $(TEST_DIR)/cet.flat
